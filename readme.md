@@ -11,7 +11,7 @@ Jim Shields / wahilacreative.com
 # Parameters
 
 ### Options
-*options*: Object - (optional) override the defaults
+*options*: Object - (optional) override the defaults  
 	{  
 		children : null  
 	}
