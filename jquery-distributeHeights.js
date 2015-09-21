@@ -6,6 +6,8 @@
 	Options: {
 		@property children: String - (optional) CSS selector of specific child/grand-child elements to modify rather than the called on jQuery Object
 	}
+	
+	callback: Function - (optional) callback function to call after the heights have been distributed
 
 	Examples: 
 		
@@ -42,7 +44,7 @@
 
 (function($){
 
-	$.fn.distributeHeights = function (options) {
+	$.fn.distributeHeights = function (options, callback) {
 
 		// Loop over a jQuery Object and record the height if it's larger than the previous record
 		// @param elementCollection: jQuery Object - collection of HTML nodes to loop over to collect the largest height of
@@ -86,6 +88,10 @@
 
 		// The Magic
 		applyHeight(elements, getLargestHeight(elements));
+
+		if (callback && typeof callback === 'function') {
+			callback();
+		}
 
 		// Make plugin "chainable"
 		return this;
