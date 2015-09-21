@@ -24,6 +24,10 @@ Jim Shields / wahilacreative.com
 ### Callback
 *callback*: Function - (optional) function that is called after the plugin works its magic
 
+	$(selector).distributeHeights(null, function(){
+		console.log("Ring ring");
+	})
+
 Callback function that can be called after the heights have been applied
 
 ## Examples: 
