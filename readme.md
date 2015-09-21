@@ -6,6 +6,7 @@ Jim Shields / wahilacreative.com
 {
 	children : null,
 }
+
 	@property children: String - (optional) CSS selector of specific child/grand-child elements to modify rather than the called on jQuery Object
 
 ## Examples: 
