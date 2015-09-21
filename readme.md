@@ -12,6 +12,7 @@ Jim Shields / wahilacreative.com
 
 ### Options
 *options*: Object - (optional) override the defaults  
+
 	{  
 		children : null  
 	}
