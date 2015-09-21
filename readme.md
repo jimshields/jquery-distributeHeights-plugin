@@ -15,9 +15,9 @@ Jim Shields / wahilacreative.com
 ### Options
 *options*: Object - (optional) override the defaults  
 
-	{  
+	$(selector).distributeHeights({  
 		children : null  
-	}
+	})
 
 **property** *children*: String - (optional) CSS selector of specific child/grand-child elements to modify rather than the called on jQuery Object
 
