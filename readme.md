@@ -22,6 +22,8 @@ Jim Shields / wahilacreative.com
 **property** *children*: String - (optional) CSS selector of specific child/grand-child elements to modify rather than the called on jQuery Object
 
 ### Callback
+*callback*: Function - (optional) function that is called after the plugin works its magic
+
 Callback function that can be called after the heights have been applied
 
 ## Examples: 
