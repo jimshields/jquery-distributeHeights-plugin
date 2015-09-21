@@ -30,6 +30,16 @@ Pass child selector in as an optional property
 		children : 'li'
 	});
 
+Pass a callback function to be called after heights have been applied. This example fires a class that
+
+	var nav = $('.site-nav');
+	
+	nav.distributeHeights({
+		children: 'li'
+	}, function () {
+		nav.addClass('normalized')
+	});	
+
 Get creative with data attributes to pass in different child selectors for multiple elements
 
 	<div class="js-distributeHeights" data-child="li"> ... </div>
