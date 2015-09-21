@@ -90,6 +90,6 @@
 		// Make plugin "chainable"
 		return this;
 
-	}
+	};
 
 })(jQuery);
