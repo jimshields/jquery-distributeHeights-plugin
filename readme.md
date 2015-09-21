@@ -10,7 +10,7 @@ Jim Shields / wahilacreative.com
 
 # Parameters
 
-### Options Object:
+### Options
 	{  
 		children : null  
 	}
