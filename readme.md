@@ -3,8 +3,8 @@ Takes a jQuery Object (and/or an optional child selector) and finds the tallest 
 ## Author:
 Jim Shields / wahilacreative.com
 ## Options Object:
-{
-	children : null,
+{  
+	children : null  
 }
 
 	@property children: String - (optional) CSS selector of specific child/grand-child elements to modify rather than the called on jQuery Object
