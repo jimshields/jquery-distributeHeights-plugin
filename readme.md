@@ -2,7 +2,7 @@
 Takes a jQuery Object (and/or an optional child selector) and finds the tallest element, then makes all siblings (or children) the same height
 ## Author:
 Jim Shields / wahilacreative.com
-## Options  
+## Options Object:
 	@property children: String - (optional) CSS selector of specific child/grand-child elements to modify rather than the called on jQuery Object
 
 ## Examples: 
