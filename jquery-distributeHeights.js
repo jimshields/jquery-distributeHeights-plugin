@@ -25,6 +25,22 @@
 
 		--- or ---
 
+		Pass a callback function to be called after heights have been applied. This example fires a class that
+
+		| function addFadeClass (elem) {
+		| 	elem.addClass('show');
+		| }
+		| 
+		| var nav = $('.site-nav');
+		| 
+		| nav.distributeHeights({
+		| 	children: 'li'
+		| }, function () {
+		| 	nav.addClass('normalized')
+		| });
+
+		--- or ---
+
 		Get creative with data attributes to pass in different child selectors for multiple elements
 
 		| <div class="js-distributeHeights" data-child="li"> ... </div>
