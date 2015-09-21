@@ -8,14 +8,16 @@ On more than one occasion a design I've implemented called for a grid of perfect
 ## Author:
 Jim Shields / wahilacreative.com
 
-## Options Object:
+# Parameters
+
+### Options Object:
 	{  
 		children : null  
 	}
 
 **property** *children*: String - (optional) CSS selector of specific child/grand-child elements to modify rather than the called on jQuery Object
 
-## Callback
+### Callback
 Callback function that can be called after the heights have been applied
 
 ## Examples: 
