@@ -30,7 +30,7 @@ Pass child selector in as an optional property
 		children : 'li'
 	});
 
-Pass a callback function to be called after heights have been applied. This example adds a class to the called jQuery Object when its <li> children have had their heights distributed.
+Pass a callback function to be called after heights have been applied. This example adds a class to the called jQuery Object when its children have had their heights distributed.
 
 	var nav = $('.site-nav');
 	
