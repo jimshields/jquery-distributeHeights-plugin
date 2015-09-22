@@ -1,5 +1,5 @@
 # Plugin: 
-**Takes a jQuery Object (and/or an optional child selector) and finds the tallest element, then makes all siblings (or children) the same height**
+**Takes a jQuery Object (and an optional child selector) and finds the tallest element, then makes all siblings (or children) the same height**
 
 On more than one occasion a design I've implemented called for a grid of perfectly aligned elements with imperfectly aligned content. Instead of using a table I opted to simply use javascript to distribute the tallest height in the set of elements across all elements. I made this simple jQuery plugin for ease of use.
 
@@ -49,7 +49,7 @@ Pass a callback function to be called after heights have been applied. This exam
 	nav.distributeHeights({
 		children: 'li'
 	}, function () {
-		nav.addClass('normalized')
+		nav.addClass('normalized');
 	});	
 
 Get creative with data attributes to pass in different child selectors for multiple elements
