@@ -70,6 +70,8 @@
 
 			elementCollection.each(function(){
 
+				// Reset the height
+				$(this)[0].style.height = 'auto';
 				var elementHeight = $(this).height();
 
 				// If this elements height is larger than the largestHeight, replace the current value with it.
