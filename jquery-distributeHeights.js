@@ -25,12 +25,8 @@
 
 		--- or ---
 
-		Pass a callback function to be called after heights have been applied. This example fires a class that
+		Pass a callback function to be called after heights have been applied.
 
-		| function addFadeClass (elem) {
-		| 	elem.addClass('show');
-		| }
-		| 
 		| var nav = $('.site-nav');
 		| 
 		| nav.distributeHeights({
